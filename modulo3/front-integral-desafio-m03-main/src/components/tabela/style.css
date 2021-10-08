@@ -1,0 +1,142 @@
+
+.table {
+  width: 72.5%;
+}
+
+.table-head{
+  background-color:#FAFAFA;
+  box-shadow: 0px 2px 11px 0px #0000001A;
+
+  
+}
+
+.icons {
+  position:relative
+}
+
+.lixeira, .lapis {
+  cursor: pointer;
+}
+
+.container-confirm-delete{
+  
+  width: 90px;
+  height: 30px;
+  background: #E4F2FD;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.container-confirm-delete h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
+
+.container-confirm-delete button {
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  
+}
+
+.btn-actions-confirm-delete{
+
+  background: #3A9FF1;
+}
+
+.btn-actions-no-confirm-delete {
+  background: #FF576B;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+.data, .valor {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+.dia, .descricao, .categoria {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
+.table-head tr {
+  border-radius: 10px;
+  padding: 21px 27px;
+  display: flex;
+  gap: 90px;
+}
+
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-line{
+  padding: 21px 27px;
+  display: flex;
+  gap: 90px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.descricao {
+  margin-left: -20px;
+}
+
+.categoria {
+  margin-left: -20px;
+}
+
+.valor {
+  margin-left: 18px;
+}
+
+.icons {
+  margin-left: -15px;
+  display: flex;
+  gap: 15px;
+}

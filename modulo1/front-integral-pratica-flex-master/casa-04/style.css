@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-width: 100%;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.card-top h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.card-top header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+.josh, .lise, .christer, .katrine {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  padding: 25px 35px 4px 35px;
+  align-items: center;
+  width: 23%;
+
+}
+
+.card-top {
+  background-color: white;
+  padding: 60px 50px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  box-shadow: 2px 2px 17px 0px #DADDE1;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.soma {
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 6px;
+}
+
+img{
+  border-radius: 50%;
+  margin-bottom: 15px;
+  max-width: 66px;
+}
+.card-top h2 {
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+} 
+
+.card-top a {
+  text-decoration: underline;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 17px 0px #DADDE1;
+
+}
+
+.card-bottom header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 55px;
+  align-self: flex-start;
+}
+
+.card-bottom h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.card-bottom header span {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 9px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.card-bottom .main {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.lise-bottom, .emily, .jake, .cheryl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.cheryl {
+  margin-bottom: 37px;
+}
+
+.lise-bottom img, .emily img, .cheryl img, .jake  img{
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.nacionalidade {
+  margin-right: 131px;
+}
+
+
+.card-bottom a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 18px 30px;
+  border-radius: 60px;
+  align-self: flex-start;
+}

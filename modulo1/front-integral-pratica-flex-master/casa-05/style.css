@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(343, 100%, 71%, 10%);
+  /* font-family: 'Poppins', sans-serif; */
+  
+}
+
+.card-top{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 16px 45px -15px #02058440;
+
+}
+
+.card-top .info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+
+
+
+.card-top .info .icone {
+  border-radius: 50%;
+  border: 10px solid #EFEFFF;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  margin-right: 60px;
+}
+.card-top .info-jenny h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 20px;
+  
+}
+
+
+.card-top .info-jenny span, .card-bottom .info-jenny2 span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+/* .info-jenny{
+  margin-right: 46%;
+} */
+
+.card-top .info .seguir {
+  background-color: #202142;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-left: auto;
+  color: white;
+}
+
+.card-top .info .seguir img{
+  background-color: #202142;
+  border:none;
+  box-shadow: none;
+  margin-right: 10px;
+}
+
+.card-top .info .seguir span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.imagens-main  img {
+  border-radius: 10px;
+}
+
+
+
+
+.card-bottom{
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 16px 45px -15px #02058440;
+
+}
+
+.info2 {
+  display: flex;
+  align-items: center;
+}
+
+.icone2{
+  border-radius: 50%;
+  border: 10px solid #EFEFFF;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  margin-right: 60px;
+  
+}
+
+.imagens-main2{
+  margin-left: 113px;
+}
+
+.info-jenny2 {
+  align-items: flex-start;
+}
+
+
+ .info-jenny2 .seguir2{
+  border: 1px solid #A4A4CB;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  color: black;
+
+}
+
+
+.seguir2 span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+}
+
+.card-bottom .info-jenny2 h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 20px;
+  
+}
+
+.card-bottom .info-jenny2 .uxdesigner {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+
+

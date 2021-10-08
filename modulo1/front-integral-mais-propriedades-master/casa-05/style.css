@@ -1,0 +1,102 @@
+*{
+  margin: 0px;
+}
+/* font-family: 'Mulish', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+
+body{
+  text-align: center;
+  background-color: #F4F8FD;
+}
+
+
+header {
+  font-family: 'Merriweather', serif;
+  color: #F4F8FD;
+  max-width: 100%;
+  padding: 50px 400px;
+  background-image: url('assets/background.png');
+  background-size: cover;
+  
+  
+}
+.cabeçalho{
+  background-color: rgba(9, 24, 63, 0.5);
+  box-sizing: border-box;
+  max-width: 645px;
+  padding: 87px 78px;
+  margin: 60px auto;
+  border-radius: 10px;
+}
+
+.cabeçalho h1 {
+  font-family: 'Mulish', sans-serif;
+  margin-bottom: 12px;
+  font-size: 36px;
+  opacity: 1;
+  
+}
+
+.cabeçalho p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  margin-bottom: 40px;
+  opacity: 1;
+
+}
+
+ .cabeçalho a{
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: #FF8E4F;
+  border-radius: 50px;
+  padding: 13px 33px;
+  font-size: 14px;
+  
+}
+
+
+/* PROXIMA PARTE DO SITE */
+
+.produto-bolsa {
+  margin: 70px auto 0px auto;
+  background-color: white;
+  max-width: 501px;
+  color: #000;
+  padding: 40px 60px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+
+.produto-bolsa h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 26px;
+  margin-bottom: 26px;
+  
+  
+}
+
+.produto-bolsa p {
+  font-family: 'Mulish', sans-serif;
+  margin-bottom: 38px;
+
+}
+
+.produto-bolsa a{
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #09183F;
+  border: 1px solid #09183F ;
+  border-radius: 50px;
+  padding: 12px 33px;
+  background-color: white;
+  margin-bottom: 43px;
+}
+
+
+
+

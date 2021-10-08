@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  min-width:100vw ;
+  min-height: 100vh;
+  background-image: url('assets/background.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 15px 25px;
+  border-radius: 10px;
+  max-width: 739px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.input input {
+  all: unset;
+  padding: 15px 20px;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  /* margin-right: 10px; */
+  min-width: 75%;
+}
+
+.input button {
+  all: unset;
+  text-align: center;
+  color: white;
+  min-width: 17%;
+  background-color: #9677EF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input:focus{
+  border: 1px solid #272727;
+}
+
+button:hover{
+  box-shadow: 0px 11px 20px 0px #9677EF4D;
+
+}
+
+
+.ps {
+  background-color: #F8F9FD;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.ps h3 {
+  color:#494949;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.ps p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21,07px;
+  margin-bottom: 0;
+}
+
+img {
+  align-self: flex-end;
+}

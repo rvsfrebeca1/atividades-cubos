@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.pais{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 525px;
+  gap: 20px;
+
+}
+
+
+.pais img{
+  max-width: 500px;
+}
+
+
+.paisUnitario{
+  background-color: grey;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width:525px ;
+}

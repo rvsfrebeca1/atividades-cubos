@@ -1,0 +1,91 @@
+body{
+  background-color: #E5E5E5;
+ 
+}
+
+.primeiroBloco{
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 60px 85px;
+  max-width: 500px;
+  background-color: white;
+  margin-bottom: 63px;
+  box-sizing: border-box;
+  color: #101439;
+}
+
+.autor{
+  padding-top: 42px;
+  font-size: 14px;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.textoPrincipal{
+  
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+
+
+
+.segundoBloco{
+  margin: 0 auto;
+
+  max-width: 431px;
+  border-radius: 10px;
+  padding: 60px 60px;
+  background-color: #101439;
+  margin-top: 63px;
+  box-sizing: border-box;
+}
+
+
+.primeiro{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  size: 14px;
+  height: 67px;
+
+}
+
+.segundo{
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  line-height: 32px;
+  height: 67px;
+}
+
+.terceiro{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 55px;
+  height: 67px;
+}
+
+.btn-azul{
+  display: table;
+  margin: auto;
+  width: 200px;
+  height: 77px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1px 60px;
+
+}
+
+a {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #101439;
+  font-weight: 700;
+  
+}

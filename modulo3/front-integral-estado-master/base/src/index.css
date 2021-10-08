@@ -1,0 +1,76 @@
+
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#root{
+  
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: #E5E5E5;
+}
+
+.card1{
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px 45px 70px 45px;
+
+}
+
+.card1__close{
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.card1__paragrafo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+
+.card1__button{
+  font-family:'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  background: #ED6755;
+  color: white;
+  border: none;
+  padding:14px 60px ;
+
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+.hidden{
+  display: none;
+}
+
+
+.finder{
+  display: flex;
+}

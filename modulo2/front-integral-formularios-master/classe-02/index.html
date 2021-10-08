@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js" defer></script>
+  <title>Cadastro intermedário</title>
+</head>
+
+<body>
+
+  <!-- - Nome <= OK
+- Email <= OK
+- Celular <= OK
+- Senha <= OK
+- Estado <= OK -->
+
+  <!-- - Todos os campos são obrigatórios <= OK
+- O Email deve ser um email válido <= OK
+- O celular deve conter somente números <= OK
+- A senha não poderá ser vista enquanto escrita <= OK
+- A senha deverá ser confirmada para a submissão do formulário ocorrer (por meio de outro `<input>`) <= OK
+- O estado deve ser escolhido a partir de uma lista com todos os estados do Brasil (elemento `<select>`) <= OK -->
+
+
+  <div class="cadastro">
+    <form action="">
+      <h1>Cadastro</h1>
+      <div class="nome">
+        <label>
+          Nome
+          <input type="text" required>
+        </label>
+      </div>
+      <div class="email">
+        <label>
+          Email
+          <input type="email" required>
+        </label>
+      </div>
+      <div class="celular">
+        <label>
+          Celular
+          <input type="number" required>
+        </label>
+      </div>
+      <div class="senha">
+        <label>
+          Senha
+          <input type="password" required>
+        </label>
+      </div>
+      <div class="repita-senha" required>
+        <label>
+          Confirmar senha
+          <input type="password" required>
+        </label>
+      </div>
+      <div class="estado">
+        <label>
+          Estado
+          <select required>
+            <option value="Salvador">Salvador</option>
+            <option value="Rio de Janeio">Rio de Janeio</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Gramado">Gramado</option>
+            <option value="Campinas">Campinas</option>
+            <option value="Goiania">Goiania</option>
+            <option value="Recife">Recife</option>
+          </select>
+        </label>
+      </div>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, #root{
+  min-width: 100%;
+  min-height: 100vh;
+  
+}
+
+.App{
+  min-width: 100%;
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #E5E5E5;
+
+}
+
+.card{
+  min-width: 311px;
+  background-color: white;
+
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+  text-align: center;
+
+  padding: 8px 40px 25px 40px;
+}
+
+.card__image{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+  min-width: 311px;
+}
+
+
+h1{
+  margin-bottom: 8px;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+p{
+  margin-bottom: 59px;
+
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+
+span{
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+
+.card__counter{
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+button{
+  background: #459275;
+  border-radius: 8px;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+
+  color: white;
+
+  width: 50px;
+  height: 50px;
+
+
+  cursor: pointer;
+
+
+  border: none;
+}
+

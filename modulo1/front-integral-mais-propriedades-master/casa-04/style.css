@@ -1,0 +1,42 @@
+body{
+  background-color: #6D79E5;
+  margin-top: 50px;
+}
+
+div {
+
+  font-family: 'Mulish', sans-serif;
+  box-sizing: border-box;
+  max-width: 608px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 65px 160px;
+}
+
+img {
+  border:16px solid #ECF3FC;
+  border-radius: 50%;
+  margin-bottom: 60px;
+
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+span{
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+p {
+  margin-top: 93px;
+  font-size: 36px;
+  font-weight: 400;
+
+}

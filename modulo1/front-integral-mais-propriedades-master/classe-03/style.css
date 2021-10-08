@@ -1,0 +1,90 @@
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color:#EFF5FF;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.card{
+  background-color: white;
+  width: 436px;
+  border-radius: 15px;
+  padding: 75px 70px 50px 70px;
+}
+
+.categorias a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 48px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  border-radius:10px;
+
+
+  
+}
+
+
+
+p .cat{
+  font-family: 'Lato', sans-serif;
+  color: #494949;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+p{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+
+}
+.categorias span , span {
+  font-family: 'Lato', sans-serif;
+  color: #494949;
+}
+.categorias {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.categoria{
+  display: inline-block;
+  background-color: #EFF5FF;
+  border-radius: 45px;
+  color: #2E29FF;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+

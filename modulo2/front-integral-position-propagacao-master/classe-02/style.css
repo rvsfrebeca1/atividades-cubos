@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: violet;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+img{
+  margin: 50px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.btn{
+  position: relative;
+}
+
+.modal{
+  padding: 20px 15px 75px 25px;
+  background-color: white;
+  border-radius: 12px;
+  position: absolute;
+
+  bottom: 150px;
+  right: 50px;
+  border-radius: 12px;
+  max-width: 300px;
+
+  display: none;
+
+}
+
+h1 {
+  margin-bottom: 41px;
+}
+
+h4{
+  margin-bottom: 12px;
+}
+
+p{
+  margin-bottom: 40px;
+}

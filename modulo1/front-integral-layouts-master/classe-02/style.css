@@ -1,0 +1,102 @@
+html {
+  min-height: 100%;
+  background-image: url('assets/background.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.card {
+  font-family: 'Kumbh Sans', sans-serif;
+  max-width: 360px;
+}
+
+.top {
+  /* display: flex; */
+  justify-content: center;
+  background-color: white;
+  background-image: url('assets/bg-pattern-card.svg');
+  padding: auto auto;
+  min-height: 140px;
+  margin: 0 auto -90px auto;
+  padding-top:90px;
+  border-radius: 8px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  align-items: center;
+
+}
+
+h1 {
+  display: inline-block;
+}
+img {
+  display: flex;
+  border-radius: 50%;
+  text-align: end;
+  margin: 0 auto;
+  border: 8px solid white;
+}
+
+.nome-idade{
+  margin-top: 60px;
+}
+
+.nome-idade h1{
+  font-size: 18px;
+  font-weight: 700;
+  color: #2E3349;
+}
+
+.nome-idade span {
+  font-weight: 400;
+  color: #6B7082;
+}
+
+.bottom p {
+  font-weight: 400;
+  color: #6B7082;
+}
+
+.info {
+  display: flex;
+  background-color: white;
+  padding: 25px 50px;
+  border-top: 1px solid #E8E9EC;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+
+.coluna-1, .coluna-2 {
+  margin-right: 46px;
+}
+
+.info span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2E3349;
+}
+
+.info p {
+  font-weight: 400;
+  color: #6B7082;
+}
+
+.coluna-1, .coluna-2, .coluna-3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

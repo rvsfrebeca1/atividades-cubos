@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 15px 15px 35px 15px;
+  align-items: center;
+  background-color: white;
+
+  border-radius: 20px;
+}
+
+.App{
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card1__close{
+  align-self: flex-end;
+  margin-bottom: 4px;
+}
+
+.card1__cookie{
+  margin-bottom: 18px;
+  width: 86px;
+  height: 86px;
+}
+
+.card1__paragrafo{
+  margin-bottom: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 24px; */
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.card1__button{
+  border: none;
+  border-radius: 5px;
+  border-bottom: 7px ;
+  color: white;
+  padding: 14px 60px;
+}
+
+.card1 button.Cookie{
+  background: #ED6755;
+  box-shadow:0px 3px 5px 0px #ED6755;
+}
+.card1 button.Alert{
+  background: #1C1B5E;
+  box-shadow:0px 3px 5px 0px #1C1B5E;
+}

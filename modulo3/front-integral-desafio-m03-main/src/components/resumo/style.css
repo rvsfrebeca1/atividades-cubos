@@ -1,0 +1,110 @@
+.container-resume {
+  width: 300.5px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.values {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px 0px #0000001A;
+  margin-left: 40px;
+
+
+  border-radius: 10px;
+  padding: 26px 33px;
+  gap: 16px;
+}
+
+.btn-add {
+  border: none;
+  border-radius: 5px;
+  margin-top:16px ;
+  padding: 16px 33px;
+  width: 100%;
+  margin-left: 40px;
+
+
+  background: linear-gradient(91.26deg, #FA8C10 0%, #FF57D3 97.77%);
+
+  color: #FFF;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.entrada, .saida, .balance {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.valor {
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: right;
+
+}
+
+.container-resume h1 {
+  color: #2F2F2F;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.entrada > span, .saida > span {
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.entrada {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.saida {
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: 19px;
+}
+
+.balance > span {
+  color: #2F2F2F;
+
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
